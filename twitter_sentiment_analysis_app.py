@@ -49,9 +49,14 @@ app.layout = html.Div(
         # html.Div(className='row', children=[html.Div(
         #     id="recent-tweets-table", className='col s12 m6 l6')]),
 
+
+
         html.Div(className='row', style={'display': 'flex'}, children=[
-                 html.Div(id="recent-tweets-table", className='col s12 m6 l6'),
-                 html.Div(dcc.Graph(id='sentiment-pie', animate=False), className='col s12 m6 l6')]),
+                 html.Div(id="recent-tweets-table", className='col s12 m6 l6')]),
+
+        # html.Div(className='row', style={'display': 'flex'}, children=[
+        #          html.Div(id="recent-tweets-table", className='col s12 m6 l6'),
+        #          html.Div(dcc.Graph(id='sentiment-pie', animate=False), className='col s12 m6 l6')]),
 
         # html.Div(className='row', children=[html.Div(dcc.Graph(id='live-graph', animate=False), className='col s12 m6 l6'),
         #                                     html.Div(dcc.Graph(id='historical-graph', animate=False), className='col s12 m6 l6')]),

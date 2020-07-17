@@ -25,10 +25,10 @@ os.chdir(os.path.realpath(os.path.dirname(__file__)))
 analyzer = SentimentIntensityAnalyzer()
 
 # consumer key, consumer secret, access token, access secret.
-ckey = "H1uCbkmrRHCYfZJdss4sOiees"
-csecret = "kRn2CSdozYb1yqLEkSdZ59XBjIAI9SV4EfJ9eHUER4TXe4jB3n"
-atoken = "991302229972860930-6pcAUmE1tqwhvkn8ovCudchJLnCqk3x"
-asecret = "fsmNVS2bcdEirXBSRZ45LdaA5Faq0XLeFvsuc4ofKLz5j"
+ckey = ""
+csecret = ""
+atoken = ""
+asecret = ""
 # isolation lever disables automatic transactions,
 # we are disabling thread check as we are creating connection here, but we'll be inserting from a separate thread (no need for serialization)
 conn = sqlite3.connect('/home/sungjae/Documents/git/twitter-sentiment-analysis/twitter_live_bak.db',
